@@ -1,0 +1,55 @@
+/* Write your CSS here */
+
+.click-counter-bg {
+  background-color: #f1f5f8;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.counter-heading {
+  color: #2d3a35;
+  font-family: 'Roboto';
+  font-size: 32px;
+  font-weight: bold;
+  text-align: center;
+}
+@media screen and (min-width: 768px) {
+  .counter-heading {
+    font-size: 50px;
+  }
+}
+
+.counter-value {
+  color: #c20a72;
+  font-weight: 900;
+}
+.text {
+  color: #2d3a35;
+  font-family: 'Roboto';
+  font-size: 15px;
+  text-align: center;
+}
+@media screen and (min-width: 768px) {
+  .text {
+    font-size: 20px;
+  }
+}
+.button-container {
+  text-align: center;
+}
+.click-me-btn {
+  background-color: #007bff;
+  border-radius: 5px;
+  border: none;
+  color: #ffffff;
+  font-family: 'Roboto';
+  font-size: 14px;
+  padding-left: 14px;
+  padding-right: 14px;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  cursor: pointer;
+  outline: none;
+}
